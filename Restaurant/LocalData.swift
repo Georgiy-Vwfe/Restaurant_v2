@@ -15,58 +15,100 @@ struct LocalData {
     
     /// List of categories the app should return
     static let categories = [
-        "appetizers",
-        "entrees",
+        "пицца",
+        "сэндвичи",
+        "салаты",
+        "бизнес ланч",
     ]
     
     static let menuItems = [
         MenuItem(
             id: 1,
-            name: "Spaghetti and Meatballs",
-            description: "Seasoned meatballs on top of freshly-made spaghetti. Served with a robust tomato sauce.",
-            price: 9,
-            category: "entrees",
-            imageURL: URL(fileURLWithPath: "SpaghettiAndMeatballs")
+            name: "4 сыра",
+            description: "Сливочный соус, сыры: чеддер, пармезан, моцарелла, горгонзола.",
+            price: 495,
+            category: "пицца",
+            imageURL: URL(fileURLWithPath: "4sira3-cr-1200x1200.jpg")
         ),
         MenuItem(
             id: 2,
-            name: "Margherita Pizza",
-            description: "Tomato sauce, fresh mozzarella, basil, and extra-virgin olive oil.",
-            price: 10,
-            category: "entrees",
-            imageURL: URL(fileURLWithPath: "MargheritaPizza")
+            name: "сэндвич с курицей",
+            description: "Салат Айсберг, помидоры, куриное феле, соус BBQ, сыр чеддер.",
+            price: 200,
+            category: "сэндвичи",
+            imageURL: URL(fileURLWithPath: "sen_s_kur-cr-1200x1200.jpg")
         ),
         MenuItem(
             id: 3,
-            name: "Grilled Steelhead Trout Sandwich",
-            description: "Pacific steelhead trout with lettuce, tomato, and red onion.",
-            price: 9,
-            category: "entrees",
-            imageURL: URL(fileURLWithPath: "GrilledSteelheadTroutSandwich")
+            name: "цезарь с креветками",
+            description: "Салат Айсберг, соус цезарь, помидоры черри, креветки, пармезан, гренки.",
+            price: 360,
+            category: "салаты",
+            imageURL: URL(fileURLWithPath: "salat_cezar_s_losos-cr-1200x1200.jpg")
         ),
         MenuItem(
             id: 4,
-            name: "Pesto Linguini",
-            description: "Stewed sliced beef with yellow onions and garlic in a vinegar-soy sauce. Served with steamed jasmine rice and sautÃ©ed vegetables.",
-            price: 9,
-            category: "entrees",
-            imageURL: URL(fileURLWithPath: "PestoLinguini")
+            name: "салат/суп + пицца/паста + напиток",
+            description: "Напиток - Морс/Чай/Лимонад/Сок, Пицца - На выбор, Суп дня, Салат - На выбор",
+            price: 320,
+            category: "бизнес ланч",
+            imageURL: URL(fileURLWithPath: "ZQ0A0161-cr-1200x1200.jpg")
         ),
         MenuItem(
             id: 5,
-            name: "Chicken Noodle Soup",
-            description: "Delicious chicken simmered alongside yellow onions, carrots, celery, and bay leaves, chicken stock.",
-            price: 3,
-            category: "appetizers",
-            imageURL: URL(fileURLWithPath: "ChickenNoodleSoup")
+            name: "пепперони",
+            description: "Красный соус, сыр моцарелла, перец чили, пепперони",
+            price: 440,
+            category: "пицца",
+            imageURL: URL(fileURLWithPath: "papironi-cr-1200x1200.jpg")
+        ),
+        MenuItem(
+            id: 5,
+            name: "охотничья",
+            description: "Красный соус, сыр моцарелла, охотничьи колбаски, болгарский перец, маринованные огурчики, красный лук",
+            price: 495,
+            category: "пицца",
+            imageURL: URL(fileURLWithPath: "ohotnichia-cr-1200x1200.jpg")
         ),
         MenuItem(
             id: 6,
-            name: "Italian Salad",
-            description: "Garlic, red onions, tomatoes, mushrooms, and olives on top of romaine lettuce.",
-            price: 5,
-            category: "appetizers",
-            imageURL: URL(fileURLWithPath: "ItalianSalad")
+            name: "гавайская",
+            description: "Красный соус, сыр моцарелла, куриная грудка, ветчина, ананас",
+            price: 440,
+            category: "пицца",
+            imageURL: URL(fileURLWithPath: "govaiskaia-cr-1200x1200.jpg")
+        ),
+        MenuItem(
+            id: 7,
+            name: "салат + суп + пицца/паста + напиток",
+            description: "Напиток - Морс/Чай/Лимонад/Сок, Пицца - На выбор, Суп дня, Салат - На выбор",
+            price: 380,
+            category: "бизнес ланч",
+            imageURL: URL(fileURLWithPath: "ZQ0A0158-cr-1200x1200.jpg")
+        ),
+        MenuItem(
+            id: 8,
+            name: "томаты + моцарелла",
+            description: "Моцарелла Гальбани, помидоры, маслины, базилик, песто",
+            price: 190,
+            category: "салаты",
+            imageURL: URL(fileURLWithPath: "salat_kapreze-cr-1200x1200.jpg")
+        ),
+        MenuItem(
+            id: 9,
+            name: "греческий",
+            description: "Помидоры, болгарский перец, салат Айсберг, огурцы, маслины, красный лук, сыр фета, оливковое масло",
+            price: 210,
+            category: "салаты",
+            imageURL: URL(fileURLWithPath: "salat_grek-cr-1200x1200.jpg")
+        ),
+        MenuItem(
+            id: 10,
+            name: "сэндвич с лососем",
+            description: "Салат Айсберг, лосось, сливочный сыр креметте",
+            price: 280,
+            category: "сэндвичи",
+            imageURL: URL(fileURLWithPath: "sen_s_loso-cr-1200x1200.jpg")
         ),
     ]
 }
